@@ -1,0 +1,88 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+
+h1 {
+    color: whitesmoke;
+    font-size: 20px;
+    text-shadow: black 0.1em 0.1em 0.3em;
+    background-color: yellowgreen;
+    letter-spacing: 2px;
+    line-height: 3;
+    text-align: center; 
+}
+
+.paragrafo {
+   color:rgb(12, 76, 133);
+   font-size: 14px;
+   font-weight: lighter;
+   padding: 15px;   
+   margin-left: 10px;
+   font-weight: bold;
+   text-decoration: underline;
+}
+
+
+.corpoDoTexto{
+    color: green;
+    font-size: 13px;
+    margin-left: 40px;
+    font-weight: lighter;
+    padding: 5px;
+    line-height: 1.6em;
+}
+
+.corpoDoTexto2{
+    color: rgb(80, 175, 80);
+    font-size: 13px;
+    margin-left: 40px;
+    font-weight: lighter;
+    padding: 5px;
+    line-height: 1.6em;
+}
+
+a {
+    color: rgb(12, 76, 133);
+    cursor: pointer;
+}
+
+.blink{
+    animation: blink 2s infinite;
+    text-decoration: none;
+}
+
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      color: rgb(12, 76, 133);
+    }
+  }
+
+/*.botao {
+
+    background-color: rgb(226, 64, 64);
+    color: antiquewhite;
+    height: 20px;
+    width: 20px;
+    padding: 1em;
+    margin: 20px;
+    border-radius: 45%;
+    border: none;
+}*/
+
+.botao {
+    color: red;
+    margin: 20px;
+}
+
+
